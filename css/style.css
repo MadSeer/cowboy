@@ -79,7 +79,7 @@ header div{
 }
 
 .saloon{
-    background-image: url("./pictures/saloon.jpg");
+    background-image: url("../pictures/saloon.jpg");
     background-size: cover;
     height:800px;
     display: flex;
@@ -216,7 +216,7 @@ h5{
 
 @font-face {
     font-family: "WildWestShadow";  
-    src: url("./fonts/357.ttf") format("truetype"); 
+    src: url("../fonts/357.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
     } 
