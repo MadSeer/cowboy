@@ -220,3 +220,94 @@ h5{
     font-style: normal; 
     font-weight: normal; 
     } 
+
+    @media screen and (min-width:200px) and (max-width:1100px){
+        header{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background-image: linear-gradient(#975e1c81,#fcdabe);
+        }
+
+        .Sitename{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .Sitename h1{
+            text-align: center;
+        }
+
+        header div img{
+            margin-top: 3%;
+            margin-bottom: 3%;
+        }
+        
+        header div h1{
+            vertical-align: middle;
+            font-family: WildWestShadow;
+            font-size: 30pt;
+        }
+
+        .saloon h2{
+            font-size: 20px;
+            margin-right: 20px;
+        }
+
+        .saloon{
+            background-image: url("../pictures/firewatch.jpg");
+            background-size: cover;
+            height:600px;
+            display: flex;
+            align-items:center;
+        }
+
+        .cowtext{
+            font-size: 25px ;
+            text-align: center;
+            margin-left: 0px;
+        }
+
+        .cowboys{
+            display: flex;
+            align-items:center;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 300px;
+        }
+        
+        .cowboys p{
+            text-align: left;
+            margin-left: 5px;
+            margin-top: 15px;
+        }
+
+        .carousel{
+            width:100%
+        }
+
+        .fourtext{
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .cowtext{
+            font-size: 30px;
+            width:100%;
+            height: 60px;
+            line-height: 30px;
+            
+        }
+
+        .cowboys2{
+            background-image: linear-gradient(#230221,#cbb08d );
+        }
+
+        .four{
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+
+    }
